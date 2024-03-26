@@ -262,7 +262,7 @@ body {
 }
 .serif {font-family: 'Noto Serif KR', serif;}
 .Myeongjo {font-family: 'Nanum Myeongjo', serif;}
-.Gothic {font-family: 'NanumSquare', sans-serif; text-align:center;}
+.Gothic {font-family: 'NanumSquare', sans-serif;}
 .bold {font-weight: 700;}
 /* ------------------------------------------------------------- *
  * Page transitions
@@ -308,8 +308,8 @@ body.tt-transition .ptr-prel-content {
 }
 
 .ptr-prel-image {
-	max-height: 96px; /* You may need to change the img height to match your logo type! */
-	opacity: .2; /* You may need to change the opacity as well! */
+	max-height: 250px; /* You may need to change the img height to match your logo type! */
+	opacity: .9; /* You may need to change the opacity as well! */
 }
 
 
@@ -853,7 +853,7 @@ body:not(.tt-boxed) .tt-header-inner,
 	color: #FFF;
 }
 .tt-logo img {
-	max-height: 48px; /* You may need to change the img height to match your logo type! */
+	max-height: 50px; /* You may need to change the img height to match your logo type! */
 }
 
 .tt-logo-dark{
@@ -7104,7 +7104,7 @@ body:not(.tt-magic-cursor) .social-buttons > ul > li a:hover {
 	padding-top:30px;
 	color: #e0e0e0;
 	border-bottom: 1px solid rgb(125 125 125 / 40%);
-	
+	margin: auto;
 }
 .tt-accordion-content:not(.is-open) {
 	display: none;
