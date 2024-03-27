@@ -86,7 +86,7 @@
 
 			<!-- Begin noise background -->
 			<!-- <div class="bg-noise"></div> -->
-			<!-- End noise background -->
+			<!-- End noise background --> 
 
 
 			<!-- *****************************************
@@ -145,7 +145,7 @@
 											<ul class="tt-ol-menu-list">
 
 												<!-- <li><a href="">Single Link</a></li> -->
-
+												
 												<!-- Begin submenu (submenu master)
 												==================================== -->
 												<li class="tt-ol-submenu-wrap">
@@ -162,7 +162,7 @@
 												==================================== -->
 												<li class="tt-ol-submenu-wrap">
 													<div class="tt-ol-submenu-trigger">
-														<a href="photos.html" class="Gothic">사진</a>
+														<a href="photos.html" class="Gothic">사진보기</a>
 														<div class="tt-ol-submenu-caret-wrap">
 														</div> <!-- /.tt-ol-submenu-caret-wrap -->
 													</div> 
@@ -191,6 +191,7 @@
 												</li>
 												<!-- End submenu (sub-master) -->
 
+											</ul>
 											<!-- End menu list -->
 
 										</div> <!-- /.tt-ol-menu-content -->
@@ -218,12 +219,9 @@
 					
 					<!-- ========================
 					///// Begin page header /////
-					=============================
-					* ATENTION: This page header is slightly different from the default page header! 
-					It contains some extra elements and classes specifically for a portfolio single project.
 					============================= 
 					* Use class "ph-full" to enable fullscreen size.
-					* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg" or "ph-cap-xxlg" to set caption size (no class = default size).).
+					* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg" or "ph-cap-xxlg" to set caption size (no class = default size).
 					* Use class "ph-center" to enable content center position.
 					* Use class "ph-bg-image" to enable page header background image (required for a portfolio single project!).
 					* Use class "ph-bg-image-is-light" if needed, it makes the elements dark and more visible if you use a very light image (effect only with class "ph-bg-image").
@@ -232,7 +230,6 @@
 					* Use class "ph-image-cover-*" to set image overlay opacity. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5").
 					* Use class "ph-content-parallax" to enable content parallax.
 					* Use class "ph-stroke" to enable caption title stroke style.
-					* Use class "ph-inline" to enable content inline position (for a single project page only! No effect with class "ph-center"!).
 					-->
 					<div id="page-header" class="ph-full ph-inline ph-bg-image ph-image-shadow ph-image-cover-5 ph-content-parallax">
 						<div class="page-header-inner tt-wrap">
@@ -245,7 +242,7 @@
 								</div>
 							</div>
 							<!-- End page header image -->
-
+							
 							<!-- Begin page header caption
 							=============================== 
 							Use class "max-width-*" to set caption max width if needed. For example "max-width-1000". More info about helper classes can be found in the file "helper.css".
@@ -260,13 +257,7 @@
 								& Luca</h2> <!-- You can use <br class="hide-from-lg"> to break a text line if needed -->
 								<!-- <h4 class="ph-caption-subtitle ph-appear">Subtitle</h4> -->
 							</div> 
-							<!-- End page header caption -->
-
-							<!-- Begin project info list
-							============================= 
-							* You can use the project info list as a standalone element outside of the page header if you want.
-							* Class "ph-appear" is for page header only!
-							-->
+							
 							<div class="project-info-list anim-fadeinup">
 								<ul>
 									<li>
@@ -283,25 +274,19 @@
 									</li>
 								</ul>
 							</div>
-							<!-- End project info list -->
+							<!-- End page header caption -->
+
 						</div> <!-- /.page-header-inner -->
-					
-						<!-- Begin scroll down circle (you can change "data-offset" to set scroll top offset) 
-						============================== -->
-						<!--<a href="#page-content" class="scroll-down-circle" data-offset="30">
-							<div class="sdc-inner ph-appear">
-								<div class="sdc-icon"><i class="fas fa-chevron-down"></i></div>
-								<svg viewBox="0 0 500 500">
-									<defs>
-										<path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle"></path>
-									</defs>
-									<text dy="30">
-										<textPath xlink:href="#textcircle">Scroll down - Scroll down -</textPath>
-									</text>
-								</svg>
-							</div>--> <!-- /.sdc-inner -->
-						<!--</a> -->
-						<!-- End scroll down circle -->
+
+						<!-- Begin made with love 
+						========================== -->
+						<div class="made-with-love ph-appear">
+							<div class="mwl-inner">
+								<div class="mwl-text">Made with</div>
+								<div class="mwl-icon"><i class="far fa-heart"></i></div>
+							</div>
+						</div>
+						<!-- End made with love -->
 						
 					</div>
 					<!-- End page header -->
@@ -317,7 +302,7 @@
 						============================ 
 						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 						-->
-						<div class="tt-section padding-top-xlg-180 padding-left-sm-3-p padding-right-sm-3-p">
+						<div id="bubble" class="tt-section padding-top-xlg-180 padding-left-sm-3-p padding-right-sm-3-p">
 							<div class="tt-section-inner tt-wrap section_02">
 								<div class="intro_wrap">
 									<div class="tt-row intro_wrap">
@@ -333,7 +318,7 @@
 											-->
 											
 											<div class="tt-heading tt-heading-xsm  anim-fadeinup">
-												<h2 class="tt-heading-title Gothic non">최예슬과 브론 루카,<br> 
+												<h2 class="tt-heading-title Gothic non"><font class = "bold">최예슬과 브론 루카,<br> 
 												결혼합니다.</h2>
 												<!-- <h3 class="tt-heading-subtitle text-gray">Subtitle</h3> -->
 											</div>
@@ -344,13 +329,13 @@
 										<div class="">
 
 											<div class="anim-fadeinup text-gray">
-												<p class="Gothic" align="center" style="margin-bottom : 0.5em;">지구의 저편에서 자라난 두 마음이<br>
+												<p class="Gothic" align="center" style="margin-bottom : 1.0em;">지구의 저편에서 자라난 두 마음이<br>
 												서로의 가장 큰 위로와 기쁨이었기에</p>
 												
-												<p class="Gothic" align="center" style="margin-bottom : 0.5em;">밤과 낮을 헤매는 삶의 미로도<br>
+												<p class="Gothic" align="center" style="margin-bottom : 1.0em;">밤과 낮을 헤매는 삶의 미로도<br>
 												함께 걸으면 외롭지 않아서</p>
 												
-												<p class="Gothic" align="center" style="margin-bottom : 0.5em;">우리가 사랑하는 여름, 그 첫날<br>
+												<p class="Gothic" align="center" style="margin-bottom : 1.0em;">우리가 사랑하는 여름, 그 첫날<br>
 												미지의 여정을 시작합니다.</p>
 
 
@@ -376,7 +361,7 @@
 							
 							<div class="tt-section-inner photo" >
 								<div class="tt-heading tt-heading-xsm anim-fadeinup">
-									<h2 class="tt-heading-title Gothic">사진</h2>
+									<h2 class="tt-heading-title Gothic"><font class = "bold">사진</h2>
 									<!-- <h3 class="tt-heading-subtitle text-gray">Subtitle</h3> -->
 								</div>
 								<!-- Begin tt-image
@@ -405,7 +390,7 @@
 						============================ 
 						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
 						-->
-						<div class="tt-section">
+						<div id="location" class="tt-section">
 							<div class="tt-section-inner tt-wrap">
 
 								<!-- Begin page nav 
@@ -420,17 +405,17 @@
 									</a>--> <!-- /.tt-pn-link -->
 
 									<div class="tt-pn-link anim-fadeinup">
-										<div class="tt-pn-title Gothic">오시는 길</div>
+										<div class="tt-pn-title Gothic"><font class = "bold">오시는 길</div>
 										<!--<div class="tt-pn-hover-title Myeongjo">연세대학교 알렌관</div>-->
 									</div>
 
 									<div class="">
 										<div class="anim-fadeinup text-gray">
-											<p class="Gothic"><br>남산골 한옥마을 관훈동 민씨가옥<br>
+											<p class="Gothic"><br><font class = "bold">남산골 한옥마을 관훈동 민씨가옥<br>
 											2024년 6월 1일 토요일 오후 3시</p>
 											
 											<p class="Gothic" style="font-size: 14px;">
-											결혼식은 전통혼례로 진행됩니다.<br>
+											한옥마을 결혼식은 전통혼례로 진행됩니다.<br>
 											식이 끝난 후 도보 10분 거리 장소에서 간단한 음식과<br>
 											주류와 음악을 곁들인 피로연이 이어집니다.</p>
 											<p class="Gothic" style="font-size: 18px;">피로연: L7명동 21층 루프탑 플로팅<br> 
@@ -440,34 +425,34 @@
 										</div>
 									</div>
 
-								</div> <!-- /.tt-col -->
+								</div>
 
 									<div class="map_btn"> <!-- LULU -->
-										<div class="tt-pn-subtitle anim-fadeinup"><a href="kakaomap://place?id=8005878" target="_blank"><img src="assets/img/daum_map.png" class="map_icon"></a></div>
-										<div class="tt-pn-subtitle anim-fadeinup"><a href="nmap://search?query=연세대학교신촌캠퍼스알렌관&appname=www.april8.wedding" target="_blank"><img src="assets/img/naver_map.png" class="map_icon"></a></div>
+										<div class="tt-pn-subtitle anim-fadeinup"><a href="https://kko.to/q7OZx88Xso" target="_blank"><img src="assets/img/daum_map.png" class="map_icon"></a></div>
+										<div class="tt-pn-subtitle anim-fadeinup"><a href="https://naver.me/5mYLPQaY" target="_blank"><img src="assets/img/naver_map.png" class="map_icon"></a></div>
 										<div class="tt-pn-subtitle anim-fadeinup">
-											<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=N203a2FhY2NnbXVzMmMwMGcxNDMwbWhrb2MgamF5eXdhbGtAbQ&amp;tmsrc=jayywalk%40gmail.com"><img src="assets/img/calendar.png" class="calendar"></a>
+											<a target="_blank" href="https://calendar.app.google/RTQcFD32Bru7yS7P6"><img src="assets/img/calendar.png" class="calendar"></a>
 										</div>
 									</div>
 							</div>
-								<a href="https://naver.me/G8U71aHP" target="_blank">
-								<div id="map" style="width:100%;height:300px;" ></div></a>
+								<a href="https://naver.me/5mYLPQaY" target="_blank">
+								<div id="map" style="width:100%;height:300px;"></div></a>
 								<script>
 								var mapOptions = {
-									center: new naver.maps.LatLng(37.564494, 126.942348),
+									center: new naver.maps.LatLng(37.555935, 126.99472),
 									zoom: 15
 								};
 
 								var map = new naver.maps.Map('map', mapOptions);
 								
 								var marker = new naver.maps.Marker({
-									position: new naver.maps.LatLng(37.564494, 126.942348),
+									position: new naver.maps.LatLng(37.555935, 126.99472),
 									map: map
 								});
 								</script>
 						</div>
 						<!-- End tt-section -->
-						
+
 						<!-- =======================
 						///// Begin tt-section /////
 						============================ 
@@ -504,53 +489,7 @@
 												<div class="tt-accordion-caret magnetic-item"></div>
 											</div>
 										</div> <!-- /.tt-accordion-heading -->
-										<div class="tt-accordion-content max-width-800">
-											<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-											ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-											amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-											odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
-
-											<div class="tt-btn tt-btn-link">
-												<a href="dummy-page.html" data-hover="Read More">Read More</a>
-											</div>
-										</div> <!-- /.tt-accordion-content -->
-									</div> <!-- /.tt-accordion-item -->
-
-									<div class="tt-accordion-item anim-fadeinup">
-										<div class="tt-accordion-heading">
-											<h3 class="tt-ac-head-title">마음 전해주실 곳</h3>
-											<!-- <div class="tt-accordion-subtext">Vivamus nisi</div>-->
-											<div class="tt-accordion-caret-wrap">
-												<div class="tt-accordion-caret magnetic-item"></div>
-											</div>
-										</div> <!-- /.tt-accordion-heading -->
-										<div class="tt-accordion-content max-width-800">
-											<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-											ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-											amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-											odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
-
-											<div class="tt-btn tt-btn-link">
-												<a href="dummy-page.html" data-hover="Read More">Read More</a>
-											</div>
-										</div> <!-- /.tt-accordion-content -->
-									</div> <!-- /.tt-accordion-item -->
-								</div>
-								<!-- End accordion -->
-
-							</div> <!-- /.tt-section-inner -->
-						</div>
-						<!-- End tt-section -->
-									<div class="tt-accordion tt-ac-xlg tt-ac-borders">
-										<div class="tt-accordion-item anim-fadeinup tt-section-inner tt-wrap ">
-											<div class="tt-accordion-heading">
-												<h3 class="tt-ac-head-title Gothic">대중교통과 주차</h3>
-											
-												<div class="tt-accordion-caret-wrap">
-													<div class="tt-accordion-caret magnetic-item"></div>
-												</div>
-											</div> <!-- /.tt-accordion-heading -->
-											<div class="tt-accordion-content map_info">
+										<div class="tt-accordion-content max-width-800 map_info">
 												<p><font class = "bold">주소</font><br>
 												남산골 한옥마을: 서울 중구 퇴계로 34길 28 (02-6358-5543)<br>
 												L7명동 호텔 루프탑 플로팅: 서울 중구 퇴계로 137 L7명동 21층 (02-6310-1092)
@@ -570,38 +509,34 @@
 											    대한극장 주차장 (도보 4분): 서울 중구 퇴계로 36길 23</br>
 												남산스퀘어 주차장 (도보 5분): 서울 중구 퇴계로 173
 												</p>
-												
-												<!--<div class="tt-btn tt-btn-link">
-													<a href="dummy-page.html" data-hover="Read More"></a>
-												</div>-->
-											</div> <!-- /.tt-accordion-content -->
-										</div> <!-- /.tt-accordion-item -->
-									</div>
-									<!-- End accordion -->
-									<div class="tt-heading tt-heading-xsm anim-fadeinup">
-										<h2 class="tt-heading-title Gothic">마음 전해주실 곳
-										<h3 class="tt-heading-subtitle text-gray">Subtitle</h3>
-										<div class="tt-accordion tt-ac-xlg tt-ac-borders">
-											<div class="tt-accordion-heading ">
-												<div class="bank mb Gothic">
-													<div class="bank_aco"> <div><bold><font class = "bold">최원창</font></font> </bold>국민은행</div> <input id="bank_num" value="217-21-0403360" readonly></div>
+										</div> <!-- /.tt-accordion-content -->
+									</div> <!-- /.tt-accordion-item -->
+
+									<div class="tt-accordion-item anim-fadeinup">
+										<div class="tt-accordion-heading">
+											<h3 class="tt-ac-head-title">마음 전해주실 곳</h3>
+											<!-- <div class="tt-accordion-subtext">Vivamus nisi</div>-->
+											<div class="tt-accordion-caret-wrap">
+												<div class="tt-accordion-caret magnetic-item"></div>
+											</div>
+										</div> <!-- /.tt-accordion-heading -->
+										<div class="tt-accordion-content max-width-800">
+											<div class="bank mb Gothic">
+													<div class="bank_aco"> <div><font class = "bold">최원창</font> 국민은행</div> <input id="bank_num" value="217-21-0403360" readonly></div>
 													<p class="clip_btn Gothic">복사하기</p>
-												</div>
-												<div class="bank mb Gothic">
+											</div>
+											<div class="bank mb Gothic">
 													<div class="bank_aco"> <div><font class = "bold">최예슬</font> 신한은행</div> <input id="bank_num" class="min_num" value="110-354-431016" readonly></div>
 													<p class="clip_btn Gothic">복사하기</p>
-												</div>
 											</div>
-										</div>
-									</div>
-									<!-- End accordion -->
-					</div> <!-- End page_content -->
-				</div> <!-- End content-wrap -->
+										</div> <!-- /.tt-accordion-content -->
+									</div> <!-- /.tt-accordion-item -->
+								</div>
+								<!-- End accordion -->
 
-
-					</div>
-					<!-- End page content -->
-
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
 
 					<!-- ======================
 					///// Begin tt-footer /////
@@ -639,8 +574,6 @@
 		<!-- End body inner -->
 
 
-        
-
 		<!-- ====================
 		///// Scripts below /////
 		===================== -->
@@ -664,31 +597,7 @@
 		<!-- Theme master JS -->
 		<script src="assets/js/theme.js"></script>
 
-		<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?govClientId=y27g8zf9dw"></script>
 
-		<!-- MAIN SCRIPT -->
-		<script>
-			/* MENU navi */
-
-			/* 계좌 클립보드 복사 */
-			$(function () {
-				$('.clip_btn').click(function() {
-			
-					let copyText = $(this).prev().children();
-					copyText.select();
-					
-					let copy = document.execCommand('copy');
-					alert("복사 되었습니다.");
-				});
-			});
-
-			$(window).scroll(function () { 
-				var scrollValue = $('.scroll-container').scrollTop(); 
-				console.log(scrollValue); 
-			});
-
-
-		</script>
 
 	</body>
 
