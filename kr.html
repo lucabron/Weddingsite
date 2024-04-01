@@ -107,7 +107,7 @@
 							<!-- Begin logo 
 							================ -->
 							<div class="tt-logo"> 
-								<a href="k.html">
+								<a href="kr.html">
 									<!-- Hint: You may need to change the img height to match your logo type. You can do this from the "theme.css" file (find: ".tt-logo img"). -->
 									<img src="assets/img/bird_white.png" class="tt-logo-light magnetic-item" alt="Logo"> <!-- logo light -->
 									<img src="assets/img/bird_white.png" class="tt-logo-dark magnetic-item" alt="Logo"> <!-- logo dark -->
@@ -600,7 +600,29 @@
 		<!-- Theme master JS -->
 		<script src="assets/js/theme.js"></script>
 
+		<!-- MAIN SCRIPT -->
+		<script>
+			/* MENU navi */
 
+			/* 계좌 클립보드 복사 */
+			$(function () {
+				$('.clip_btn').click(function() {
+			
+					let copyText = $(this).prev().children();
+					copyText.select();
+					
+					let copy = document.execCommand('copy');
+					alert("복사 되었습니다.");
+				});
+			});
+
+			$(window).scroll(function () { 
+				var scrollValue = $('.scroll-container').scrollTop(); 
+				console.log(scrollValue); 
+			});
+
+
+		</script>
 
 	</body>
 

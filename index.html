@@ -563,7 +563,29 @@
 		<!-- Theme master JS -->
 		<script src="assets/js/theme.js"></script>
 
+		<!-- MAIN SCRIPT -->
+		<script>
+			/* MENU navi */
 
+			/* 계좌 클립보드 복사 */
+			$(function () {
+				$('.clip_btn').click(function() {
+			
+					let copyText = $(this).prev().children();
+					copyText.select();
+					
+					let copy = document.execCommand('copy');
+					alert("복사 되었습니다.");
+				});
+			});
+
+			$(window).scroll(function () { 
+				var scrollValue = $('.scroll-container').scrollTop(); 
+				console.log(scrollValue); 
+			});
+
+
+		</script>
 
 	</body>
 
