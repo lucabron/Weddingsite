@@ -2761,7 +2761,7 @@
 		if(!isMobile) { // Not for mobile devices!
 			if ($("body").hasClass("tt-smooth-scroll")) {
 				var $scrollbar = Scrollbar.init(document.getElementById("scroll-container"));
-				gsap.to($scrollbar, { duration: 1.5, scrollTo: { y: 3000, autoKill: true }, ease: Expo.easeInOut });
+				gsap.to($scrollbar, { duration: 1.5, scrollTo: { y: 3500, autoKill: true }, ease: Expo.easeInOut });
 			} 
 		} else {
 			$("html,body").animate({scrollTop: 2000}, 800);

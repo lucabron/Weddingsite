@@ -125,7 +125,6 @@ a:hover, a:focus {
 p a { 
 	color: currentColor;
 	opacity: .7;
-	font-style: italic;
 	border-bottom: 1px solid;
 }
 p a:hover,
@@ -258,11 +257,12 @@ body {
 .blog-interactive-item::before {
 	/*font-family: 'Noto Serif KR', serif;
 	font-family: 'SUIT-Regular';*/
-	font-family: 'NanumSquare', sans-serif;
+	font-family: 'Noto Serif KR', sans-serif;
 }
 .serif {font-family: 'Noto Serif KR', serif;}
 .Myeongjo {font-family: 'Nanum Myeongjo', serif;}
-.Gothic {font-family: 'NanumSquare', sans-serif;}
+.Gothic {font-family: 'nanumsquare', sans-serif;}
+.Gothic_ch {font-family: 'Noto Sans', sans-serif;}
 .bold {font-weight: 700;}
 /* ------------------------------------------------------------- *
  * Page transitions
@@ -7102,7 +7102,7 @@ body:not(.tt-magic-cursor) .social-buttons > ul > li a:hover {
 .tt-accordion-content {
 	padding-bottom: 30px;
 	padding-top:30px;
-	color: #e0e0e0;
+	color: #d5d5d5;
 	border-bottom: 1px solid rgb(125 125 125 / 40%);
 	margin: auto;
 }
@@ -9652,7 +9652,7 @@ body:not(.tt-boxed) .tt-footer-inner,
 .intro_wrap  > div {display:block;}
 .intro_wrap p,.intro_wrap .tt-heading-title {margin-bottom:0;}
 .round_bg { position:absolute; top:50%; left:50%; padding:180px 0; transform: translate(-50%,-50%); width:82%; height:100%; margin:0 auto; border:1px solid rgb(144 144 144 / 30%);; border-radius:150px; } 
-.intro_wrap .text-gray .Gothic {font-size:17px;}
+.intro_wrap .text-gray .Gothic {font-size:19px;}
 
 #bank_num {background:none; border:none; color:#fff; outline:none !important;}
 #bank_num::selection {background:none; border:none;  outline: none !important;}
@@ -9676,15 +9676,15 @@ body:not(.tt-boxed) .tt-footer-inner,
 .bank_aco > div { white-space: nowrap; }
 .bank #bank_num { width:100%; text-align: center; margin-bottom: 5px;}
 .bank .min_num {}
-.bank .clip_btn {width:80%; background:rgba(255,255,255,0.2); color:#fff; font-size: 14px;  border-radius: 10px; display: inline-block; padding: 3px 5px; cursor:pointer; transition: .4s;}
+.bank .clip_btn {width:60%; background:rgba(255,255,255,0.2); color:#fff; font-size: 14px;  border-radius: 10px; display: inline-block; padding: 3px 5px; cursor:pointer; transition: .4s;}
 .bank .clip_btn:hover,.bank  .clip_btn:active {background:rgba(255,255,255,0.2); color:#fff;}
 
 #map {margin:45px 0;}
 .map_btn {display:flex; align-items: center; justify-content: center; margin-top:20px;}
 .map_btn > div {padding:0 15px; transition: .4s;}
 .map_btn > div:hover {transform: scale(1.2);}
-.map_info {font-size:16px; letter-spacing: -1px; transform: rotate(0.1deg); padding-left:15px;}
-.map_info p {font-weight:400; font-family: 'NanumSquare', sans-serif}
+.map_info {font-size:17px; padding-left:15px;}
+.map_info p {font-family: 'Noto Serif KR', sans-serif}
 .map_icon {width:55px; height:55px; border-radius:30px;}
 .calendar {width:40px; }
 
