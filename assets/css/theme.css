@@ -6039,6 +6039,7 @@ video.tt-pci-video {
 	align-items: center;
 	text-decoration: none;
 	overflow: hidden;
+	padding-bottom: 10px;
 }
 
 /* Page nav title */
